@@ -1,0 +1,44 @@
+mac
+/: merupakan induk dari susunan direktori di linux dan merupakan tempat dimana semua direktori berada.
+/bin/ : directory ini berisi progam perintah esensial yang dibutuhkan oleh semua user. progam-progam disini dapat dijalankan, meskipun tidak ada sistem file lain yang di mount. directory ini tidak memiliki subdirectory.ini perintah-perintah yang harus ada di directory /bin cat, chgrp, chmod, chown, cp, date, dd, df, dmesg, echo, false, hostname, kill, ln, login, ls, mkdir, mknod, more, mount, mv, ps, pwd, rm, rmdir, sed, sh, stty, su, sync, true, unmount, uname.
+/dev/ : merupakan direktori yang berfungsi untuk menyimpan konfigurasi device atau hardware dari sistem, seperti harddisk (hda, sda), terminal (tty) etc.
+/etc/ : merupakan direktori yang berfungsi untuk menyimpan skrip installation pada /etc/rc.d sub direktori dan file-file konfigurasi dari sistem, misalkan konfigurasi service, penjadwalan etc.
+/opt/ : merupakan direktori yang berfungsi untuk menyimpan aplikasi tambahan diluar aplikasi bawaan dari linux.
+/sbin/ : merupakan direktori yang berfungsi untuk menyimpan aplikasi dasar dari linux yang dijalankan oleh super user (root) misalnya mount, shutdown, umount.
+/usr/ : merupakan direktori untuk menyimpan aplikasi yang diinstall oleh user, misalkan OpenOffice, Kate , chrome dan sebagainya.
+/var/ : merupakan direktori untuk menyimpan informasi pencatatan log sistem, web server, mailbox dan data-data aplikasi
+/tmp/ : berisi file-file sementara yang dibutuhkan sebuah aplikasi yang sedang berjalan
+/Applications/ : Self explanatory, this is where your Mac’s applications are kept
+/Library/      : Shared libraries, files necessary for the operating system to function properly, including settings, preferences, and other necessities (note: you also have a Libraries folder in your home directory, which holds files specific to that user).
+/Network/      : largely self explanatory, network related devices, servers, libraries, etc
+/System/       : System related files, libraries, preferences, critical for the proper function of Mac OS X
+/Users/        : All user accounts on the machine and their accompanying unique files, settings, etc. Much like /home in Linux
+/Volumes/      : Mounted devices and volumes, either virtual or real, such as hard disks, CD’s, DVD’s, DMG mounts, etc
+/cores/         : The /cores folder is where OS X stores Core Dumps. These are files that are intended for developers to trouble-shoot and diagnose faults in their software. They are generated as software crashes. If you're not a developer, or aren't testing software for a developer, then these files serve no purpose for you.
+/home/          : Pada direktori ini berisi direktori untuk masing-masing user. Misal, nama user kamu adalah “pintar”, maka kamu memiliki direktori di /home/pintar. Di direktori tersebut umumnya berisi file data-data user dan file konfigurasi user tertentu
+/net/           : 
+/private/       : the directory stores essential system files and caches, along with other databases that your system requires to operate.
+
+root di ubuntu
+bin     : directory ini berisi progam perintah esensial yang dibutuhkan oleh semua user. progam-progam disini dapat dijalankan, meskipun tidak ada sistem file lain yang di mount. directory ini tidak memiliki subdirectory.ini perintah-perintah yang harus ada di directory /bin cat, chgrp, chmod, chown, cp, date, dd, df, dmesg, echo, false, hostname, kill, ln, login, ls, mkdir, mknod, more, mount, mv, ps, pwd, rm, rmdir, sed, sh, stty, su, sync, true, unmount, uname.
+boot    : merupakan direktori yang berfungsi untuk menyimpan konfigurasi dan file-file yang berhubungan dengan proses booting, memuat Linux Kernel dan file lain yang diperlukan LILO dan GRUB boot manager.
+dev     : merupakan direktori yang berfungsi untuk menyimpan konfigurasi device atau hardware dari sistem, seperti harddisk (hda, sda), terminal (tty) etc.
+etc     : merupakan direktori yang berfungsi untuk menyimpan skrip installation pada /etc/rc.d sub direktori dan file-file konfigurasi dari sistem, misalkan konfigurasi service, penjadwalan etc.
+home    : Pada direktori ini berisi direktori untuk masing-masing user. Misal, nama user kamu adalah “pintar”, maka kamu memiliki direktori di /home/pintar. Di direktori tersebut umumnya berisi file data-data user dan file konfigurasi user tertentu
+lib     : merupakan direktori yang berfungsi untuk menyimpan library dasar dari system termasuk modul driver yang dapat diisi pada sistem boot.
+lib64   : merupakan direktori yang berfungsi untuk menyimpan library dasar dari system termasuk modul driver yang dapat diisi pada sistem boot untuk program 64 bits
+lost+found :Setiap distro linux memiliki direktori lost+found. Fungsinya adalah untuk menempatkan file yang rusak, sehingga kamu dapat dengan mudah untuk memulihkannya.
+media   : direktori yang berfungsi untuk mounting removable media seperi drive CD-ROM, floopy disk etc.
+mnt     : Direktori /mnt merupakan tempat untuk kamu nge-mount filesystem untuk menggunakannya sementara. Saya sering memanfaatkannya ketika melakukan sharing file yang mengharuskan saya nge-mount terlebih dahulu filesystem dari windows. Biasanya saya memberi nama /mnt/windows. Namun untuk nge-mount filesystem tidak harus di direktori tersebut melainkan bisa dimana saja.
+opt     : merupakan direktori yang berfungsi untuk menyimpan aplikasi tambahan diluar aplikasi bawaan dari linux.
+proc    : merupakan direktori yang berfungsi untuk menyimpan informasi proses sistem dan kernal dari sistem operasi, mencakupi informasi mengenai berbagai aspek sistem Linux.
+root\   : Direktori ini merupakan Home-nya user Root. Bukan terletak di /home/root, melainkan folder tersendiri, yaitu di /root. Ingat ya, ini berbeda dengan /, yang merupakan sistem directori utama.
+run     : File yang berisi tentang system yang valid sampai system melakukan boot selanjutnya.
+sbin    : merupakan direktori yang berfungsi untuk menyimpan aplikasi dasar dari linux yang dijalankan oleh super user (root) misalnya mount, shutdown, umount.
+snap    : universal linux package
+srv     : Direktori yang dimaksudkan sebagai tempat data dari sebuah layanan yang diberikan oleh sistem. Misal, jika kamu menggunakan server Apache untuk service web, kamu bisa menyimpan file-file website tersebut di sebuah direktori di dalam /srv.
+sys     : direktori special yang memuatkan informasi mengenai hard disk seperti yang dilihat melalui Linux.
+tmp     : berisi file-file sementara yang dibutuhkan sebuah aplikasi yang sedang berjalan
+usr     :merupakan direktori untuk menyimpan aplikasi yang diinstall oleh user, misalkan OpenOffice, Kate , chrome dan sebagainya.
+vagrant
+var     : Biasanya berisi informasi seperti log yang berada dalam /var/log.
